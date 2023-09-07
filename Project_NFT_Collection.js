@@ -9,17 +9,18 @@ Assessment Requirements
 */
 
 // create a variable to hold your NFT's
-let NFTobjects = [];
+const NFTobjects = [];
 
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
 function mintNFT (myName, myEyeColor, myHairColor, myWeapon, myRole) {
-    NFTobjects.push(myName = {"Name" : myName, 
+   const NFT = {"Name" : myName, 
         "HairColor" : myHairColor, 
         "EyeColor" : myEyeColor, 
         "Weapon" : myWeapon, 
-        "Role" : myRole});
+        "Role" : myRole}
+   NFTobjects.push(NFT);
 }
 
 // create a "loop" that will go through an "array" of NFT's
