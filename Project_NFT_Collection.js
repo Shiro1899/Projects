@@ -38,7 +38,7 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log(NFTobjects.length);
+    console.log("Total number of NFTs: ",NFTobjects.length);
 }
 
 // call your functions below this line
